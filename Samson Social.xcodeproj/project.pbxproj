@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05928F441D6592DE008948DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F431D6592DE008948DD /* AppDelegate.swift */; };
+		05928F461D6592DE008948DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F451D6592DE008948DD /* ViewController.swift */; };
+		05928F491D6592DE008948DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05928F471D6592DE008948DD /* Main.storyboard */; };
+		05928F4B1D6592DE008948DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05928F4A1D6592DE008948DD /* Assets.xcassets */; };
+		05928F4E1D6592DE008948DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05928F4C1D6592DE008948DD /* LaunchScreen.storyboard */; };
+		05928F591D6592DF008948DD /* Samson_SocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F581D6592DF008948DD /* Samson_SocialTests.swift */; };
+		05928F641D6592DF008948DD /* Samson_SocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F631D6592DF008948DD /* Samson_SocialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05928F551D6592DF008948DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05928F381D6592DE008948DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05928F3F1D6592DE008948DD;
+			remoteInfo = "Samson Social";
+		};
+		05928F601D6592DF008948DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05928F381D6592DE008948DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05928F3F1D6592DE008948DD;
+			remoteInfo = "Samson Social";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05928F401D6592DE008948DD /* Samson Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Samson Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05928F431D6592DE008948DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05928F451D6592DE008948DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05928F481D6592DE008948DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05928F4A1D6592DE008948DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05928F4D1D6592DE008948DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05928F4F1D6592DE008948DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05928F541D6592DF008948DD /* Samson SocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Samson SocialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05928F581D6592DF008948DD /* Samson_SocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samson_SocialTests.swift; sourceTree = "<group>"; };
+		05928F5A1D6592DF008948DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05928F5F1D6592DF008948DD /* Samson SocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Samson SocialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05928F631D6592DF008948DD /* Samson_SocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samson_SocialUITests.swift; sourceTree = "<group>"; };
+		05928F651D6592DF008948DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05928F3D1D6592DE008948DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05928F511D6592DF008948DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05928F5C1D6592DF008948DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05928F371D6592DE008948DD = {
+			isa = PBXGroup;
+			children = (
+				05928F421D6592DE008948DD /* Samson Social */,
+				05928F571D6592DF008948DD /* Samson SocialTests */,
+				05928F621D6592DF008948DD /* Samson SocialUITests */,
+				05928F411D6592DE008948DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05928F411D6592DE008948DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05928F401D6592DE008948DD /* Samson Social.app */,
+				05928F541D6592DF008948DD /* Samson SocialTests.xctest */,
+				05928F5F1D6592DF008948DD /* Samson SocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05928F421D6592DE008948DD /* Samson Social */ = {
+			isa = PBXGroup;
+			children = (
+				05928F431D6592DE008948DD /* AppDelegate.swift */,
+				05928F451D6592DE008948DD /* ViewController.swift */,
+				05928F471D6592DE008948DD /* Main.storyboard */,
+				05928F4A1D6592DE008948DD /* Assets.xcassets */,
+				05928F4C1D6592DE008948DD /* LaunchScreen.storyboard */,
+				05928F4F1D6592DE008948DD /* Info.plist */,
+			);
+			path = "Samson Social";
+			sourceTree = "<group>";
+		};
+		05928F571D6592DF008948DD /* Samson SocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				05928F581D6592DF008948DD /* Samson_SocialTests.swift */,
+				05928F5A1D6592DF008948DD /* Info.plist */,
+			);
+			path = "Samson SocialTests";
+			sourceTree = "<group>";
+		};
+		05928F621D6592DF008948DD /* Samson SocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05928F631D6592DF008948DD /* Samson_SocialUITests.swift */,
+				05928F651D6592DF008948DD /* Info.plist */,
+			);
+			path = "Samson SocialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05928F3F1D6592DE008948DD /* Samson Social */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05928F681D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson Social" */;
+			buildPhases = (
+				05928F3C1D6592DE008948DD /* Sources */,
+				05928F3D1D6592DE008948DD /* Frameworks */,
+				05928F3E1D6592DE008948DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Samson Social";
+			productName = "Samson Social";
+			productReference = 05928F401D6592DE008948DD /* Samson Social.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05928F531D6592DF008948DD /* Samson SocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05928F6B1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialTests" */;
+			buildPhases = (
+				05928F501D6592DF008948DD /* Sources */,
+				05928F511D6592DF008948DD /* Frameworks */,
+				05928F521D6592DF008948DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05928F561D6592DF008948DD /* PBXTargetDependency */,
+			);
+			name = "Samson SocialTests";
+			productName = "Samson SocialTests";
+			productReference = 05928F541D6592DF008948DD /* Samson SocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05928F5E1D6592DF008948DD /* Samson SocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05928F6E1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialUITests" */;
+			buildPhases = (
+				05928F5B1D6592DF008948DD /* Sources */,
+				05928F5C1D6592DF008948DD /* Frameworks */,
+				05928F5D1D6592DF008948DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05928F611D6592DF008948DD /* PBXTargetDependency */,
+			);
+			name = "Samson SocialUITests";
+			productName = "Samson SocialUITests";
+			productReference = 05928F5F1D6592DF008948DD /* Samson SocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05928F381D6592DE008948DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Satel Develops";
+				TargetAttributes = {
+					05928F3F1D6592DE008948DD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 65NL44LT3V;
+						ProvisioningStyle = Automatic;
+					};
+					05928F531D6592DF008948DD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 65NL44LT3V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05928F3F1D6592DE008948DD;
+					};
+					05928F5E1D6592DF008948DD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 65NL44LT3V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05928F3F1D6592DE008948DD;
+					};
+				};
+			};
+			buildConfigurationList = 05928F3B1D6592DE008948DD /* Build configuration list for PBXProject "Samson Social" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05928F371D6592DE008948DD;
+			productRefGroup = 05928F411D6592DE008948DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05928F3F1D6592DE008948DD /* Samson Social */,
+				05928F531D6592DF008948DD /* Samson SocialTests */,
+				05928F5E1D6592DF008948DD /* Samson SocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05928F3E1D6592DE008948DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05928F4E1D6592DE008948DD /* LaunchScreen.storyboard in Resources */,
+				05928F4B1D6592DE008948DD /* Assets.xcassets in Resources */,
+				05928F491D6592DE008948DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05928F521D6592DF008948DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05928F5D1D6592DF008948DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05928F3C1D6592DE008948DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05928F461D6592DE008948DD /* ViewController.swift in Sources */,
+				05928F441D6592DE008948DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05928F501D6592DF008948DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05928F591D6592DF008948DD /* Samson_SocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05928F5B1D6592DF008948DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05928F641D6592DF008948DD /* Samson_SocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05928F561D6592DF008948DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05928F3F1D6592DE008948DD /* Samson Social */;
+			targetProxy = 05928F551D6592DF008948DD /* PBXContainerItemProxy */;
+		};
+		05928F611D6592DF008948DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05928F3F1D6592DE008948DD /* Samson Social */;
+			targetProxy = 05928F601D6592DF008948DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05928F471D6592DE008948DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05928F481D6592DE008948DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05928F4C1D6592DE008948DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05928F4D1D6592DE008948DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05928F661D6592DF008948DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05928F671D6592DF008948DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05928F691D6592DF008948DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65NL44LT3V;
+				INFOPLIST_FILE = "Samson Social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.samsonsocial.Samson-Social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		05928F6A1D6592DF008948DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65NL44LT3V;
+				INFOPLIST_FILE = "Samson Social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.samsonsocial.Samson-Social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		05928F6C1D6592DF008948DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65NL44LT3V;
+				INFOPLIST_FILE = "Samson SocialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.samsonsocial.Samson-SocialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Samson Social.app/Samson Social";
+			};
+			name = Debug;
+		};
+		05928F6D1D6592DF008948DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65NL44LT3V;
+				INFOPLIST_FILE = "Samson SocialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.samsonsocial.Samson-SocialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Samson Social.app/Samson Social";
+			};
+			name = Release;
+		};
+		05928F6F1D6592DF008948DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 65NL44LT3V;
+				INFOPLIST_FILE = "Samson SocialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.samsonsocial.Samson-SocialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Samson Social";
+			};
+			name = Debug;
+		};
+		05928F701D6592DF008948DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 65NL44LT3V;
+				INFOPLIST_FILE = "Samson SocialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.samsonsocial.Samson-SocialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Samson Social";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05928F3B1D6592DE008948DD /* Build configuration list for PBXProject "Samson Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05928F661D6592DF008948DD /* Debug */,
+				05928F671D6592DF008948DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05928F681D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05928F691D6592DF008948DD /* Debug */,
+				05928F6A1D6592DF008948DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05928F6B1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05928F6C1D6592DF008948DD /* Debug */,
+				05928F6D1D6592DF008948DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05928F6E1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05928F6F1D6592DF008948DD /* Debug */,
+				05928F701D6592DF008948DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05928F381D6592DE008948DD /* Project object */;
+}
