@@ -5,7 +5,7 @@
 //  Created by Shawn Truesdell on 18/08/2016.
 //  Copyright © 2016 Satel Develops. All rights reserved.
 //
-
+import Firebase
 import XCTest
 @testable import Samson_Social
 
