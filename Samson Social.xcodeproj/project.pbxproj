@@ -21,6 +21,7 @@
 		05928F7E1D66C8E3008948DD /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F7D1D66C8E3008948DD /* FancyField.swift */; };
 		05928F801D66CA11008948DD /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F7F1D66CA11008948DD /* FancyButton.swift */; };
 		05928F831D66EC88008948DD /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F821D66EC88008948DD /* FeedVC.swift */; };
+		05FBFF3D1D66FC6D00D122AF /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBFF3C1D66FC6D00D122AF /* CircleView.swift */; };
 		3DAE06363DBE1E6AA62A460C /* Pods_Samson_SocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB46C3312905BCD8FB1E29FE /* Pods_Samson_SocialUITests.framework */; };
 		512AFF8D74789E8E10A9A763 /* Pods_Samson_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1161D92201ED3403BD221CA /* Pods_Samson_Social.framework */; };
 		5D6A716C4D58AB730F41FAA9 /* Pods_Samson_SocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB12A3A6E3DDD6DB3FF922BB /* Pods_Samson_SocialTests.framework */; };
@@ -65,6 +66,7 @@
 		05928F7F1D66CA11008948DD /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		05928F811D66DCFA008948DD /* Samson Social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Samson Social.entitlements"; sourceTree = "<group>"; };
 		05928F821D66EC88008948DD /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		05FBFF3C1D66FC6D00D122AF /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		13B65E631F6A038DD777FFC2 /* Pods-Samson SocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		373C9A5DD451EF5F40D3736C /* Pods-Samson Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social.release.xcconfig"; sourceTree = "<group>"; };
 		500E66D9A7F43C45F00FCDB8 /* Pods-Samson Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				05928F7B1D66C6E7008948DD /* RoundButton.swift */,
 				05928F7D1D66C8E3008948DD /* FancyField.swift */,
 				05928F7F1D66CA11008948DD /* FancyButton.swift */,
+				05FBFF3C1D66FC6D00D122AF /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -497,6 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05FBFF3D1D66FC6D00D122AF /* CircleView.swift in Sources */,
 				05928F7E1D66C8E3008948DD /* FancyField.swift in Sources */,
 				05928F461D6592DE008948DD /* SignInVC.swift in Sources */,
 				05928F7C1D66C6E7008948DD /* RoundButton.swift in Sources */,
