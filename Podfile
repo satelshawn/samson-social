@@ -9,8 +9,10 @@ target 'Samson Social' do
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
   pod 'Firebase/Storage'
+  pod 'FBSDKCoreKit'
   pod 'FBSDKLoginKit'
-  pod 'SwiftKeychainWrapper'
+  #pod 'SwiftKeychainWrapper'
+  pod 'KeychainSwift'
 
   # Pods for Samson Social
 

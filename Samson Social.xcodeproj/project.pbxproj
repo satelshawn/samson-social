@@ -1,938 +1,1991 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		051E12B01D6889FB00685FE9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051E12AF1D6889FB00685FE9 /* Post.swift */; };
-		0558DE351D6854D30098D271 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558DE341D6854D30098D271 /* DataService.swift */; };
-		05928F441D6592DE008948DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F431D6592DE008948DD /* AppDelegate.swift */; };
-		05928F461D6592DE008948DD /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F451D6592DE008948DD /* SignInVC.swift */; };
-		05928F491D6592DE008948DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05928F471D6592DE008948DD /* Main.storyboard */; };
-		05928F4B1D6592DE008948DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05928F4A1D6592DE008948DD /* Assets.xcassets */; };
-		05928F4E1D6592DE008948DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05928F4C1D6592DE008948DD /* LaunchScreen.storyboard */; };
-		05928F591D6592DF008948DD /* Samson_SocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F581D6592DF008948DD /* Samson_SocialTests.swift */; };
-		05928F641D6592DF008948DD /* Samson_SocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F631D6592DF008948DD /* Samson_SocialUITests.swift */; };
-		05928F721D65934E008948DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05928F711D65934E008948DD /* GoogleService-Info.plist */; };
-		05928F771D66C4B8008948DD /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F761D66C4B8008948DD /* FancyView.swift */; };
-		05928F7A1D66C542008948DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F791D66C542008948DD /* Constants.swift */; };
-		05928F7C1D66C6E7008948DD /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F7B1D66C6E7008948DD /* RoundButton.swift */; };
-		05928F7E1D66C8E3008948DD /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F7D1D66C8E3008948DD /* FancyField.swift */; };
-		05928F801D66CA11008948DD /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F7F1D66CA11008948DD /* FancyButton.swift */; };
-		05928F831D66EC88008948DD /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F821D66EC88008948DD /* FeedVC.swift */; };
-		05FBFF3D1D66FC6D00D122AF /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBFF3C1D66FC6D00D122AF /* CircleView.swift */; };
-		05FBFF3F1D6706BE00D122AF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBFF3E1D6706BE00D122AF /* PostCell.swift */; };
-		3DAE06363DBE1E6AA62A460C /* Pods_Samson_SocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB46C3312905BCD8FB1E29FE /* Pods_Samson_SocialUITests.framework */; };
-		512AFF8D74789E8E10A9A763 /* Pods_Samson_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1161D92201ED3403BD221CA /* Pods_Samson_Social.framework */; };
-		5D6A716C4D58AB730F41FAA9 /* Pods_Samson_SocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB12A3A6E3DDD6DB3FF922BB /* Pods_Samson_SocialTests.framework */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		05928F551D6592DF008948DD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 05928F381D6592DE008948DD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 05928F3F1D6592DE008948DD;
-			remoteInfo = "Samson Social";
-		};
-		05928F601D6592DF008948DD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 05928F381D6592DE008948DD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 05928F3F1D6592DE008948DD;
-			remoteInfo = "Samson Social";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		051E12AF1D6889FB00685FE9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		0558DE341D6854D30098D271 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		05928F401D6592DE008948DD /* Samson Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Samson Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05928F431D6592DE008948DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05928F451D6592DE008948DD /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
-		05928F481D6592DE008948DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		05928F4A1D6592DE008948DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05928F4D1D6592DE008948DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		05928F4F1D6592DE008948DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05928F541D6592DF008948DD /* Samson SocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Samson SocialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05928F581D6592DF008948DD /* Samson_SocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samson_SocialTests.swift; sourceTree = "<group>"; };
-		05928F5A1D6592DF008948DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05928F5F1D6592DF008948DD /* Samson SocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Samson SocialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05928F631D6592DF008948DD /* Samson_SocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samson_SocialUITests.swift; sourceTree = "<group>"; };
-		05928F651D6592DF008948DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05928F711D65934E008948DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		05928F761D66C4B8008948DD /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
-		05928F791D66C542008948DD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		05928F7B1D66C6E7008948DD /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
-		05928F7D1D66C8E3008948DD /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
-		05928F7F1D66CA11008948DD /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
-		05928F811D66DCFA008948DD /* Samson Social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Samson Social.entitlements"; sourceTree = "<group>"; };
-		05928F821D66EC88008948DD /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
-		05FBFF3C1D66FC6D00D122AF /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
-		05FBFF3E1D6706BE00D122AF /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
-		13B65E631F6A038DD777FFC2 /* Pods-Samson SocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		373C9A5DD451EF5F40D3736C /* Pods-Samson Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social.release.xcconfig"; sourceTree = "<group>"; };
-		500E66D9A7F43C45F00FCDB8 /* Pods-Samson Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social.debug.xcconfig"; sourceTree = "<group>"; };
-		B09F2EC50F1982E75DA30A56 /* Pods-Samson SocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests.release.xcconfig"; sourceTree = "<group>"; };
-		BB13BC3C5978019D2BCD2D07 /* Pods-Samson SocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DF58F1E5B9E7A19DE8E549F4 /* Pods-Samson SocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E1161D92201ED3403BD221CA /* Pods_Samson_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samson_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB12A3A6E3DDD6DB3FF922BB /* Pods_Samson_SocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samson_SocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB46C3312905BCD8FB1E29FE /* Pods_Samson_SocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samson_SocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		05928F3D1D6592DE008948DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				512AFF8D74789E8E10A9A763 /* Pods_Samson_Social.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		05928F511D6592DF008948DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D6A716C4D58AB730F41FAA9 /* Pods_Samson_SocialTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		05928F5C1D6592DF008948DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3DAE06363DBE1E6AA62A460C /* Pods_Samson_SocialUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		0558DE331D6854B80098D271 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				0558DE341D6854D30098D271 /* DataService.swift */,
-			);
-			name = Services;
-			sourceTree = "<group>";
-		};
-		05928F371D6592DE008948DD = {
-			isa = PBXGroup;
-			children = (
-				05928F421D6592DE008948DD /* Samson Social */,
-				05928F571D6592DF008948DD /* Samson SocialTests */,
-				05928F621D6592DF008948DD /* Samson SocialUITests */,
-				05928F411D6592DE008948DD /* Products */,
-				7B677AD3FD33E0499A699895 /* Pods */,
-				A9663660385533A643F10436 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		05928F411D6592DE008948DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				05928F401D6592DE008948DD /* Samson Social.app */,
-				05928F541D6592DF008948DD /* Samson SocialTests.xctest */,
-				05928F5F1D6592DF008948DD /* Samson SocialUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		05928F421D6592DE008948DD /* Samson Social */ = {
-			isa = PBXGroup;
-			children = (
-				0558DE331D6854B80098D271 /* Services */,
-				05928F811D66DCFA008948DD /* Samson Social.entitlements */,
-				05928F781D66C534008948DD /* Util */,
-				05928F731D6595A4008948DD /* Model */,
-				05928F751D6595B0008948DD /* Controller */,
-				05928F741D6595AA008948DD /* View */,
-				05928F431D6592DE008948DD /* AppDelegate.swift */,
-				05928F471D6592DE008948DD /* Main.storyboard */,
-				05928F4A1D6592DE008948DD /* Assets.xcassets */,
-				05928F4C1D6592DE008948DD /* LaunchScreen.storyboard */,
-				05928F4F1D6592DE008948DD /* Info.plist */,
-				05928F711D65934E008948DD /* GoogleService-Info.plist */,
-			);
-			path = "Samson Social";
-			sourceTree = "<group>";
-		};
-		05928F571D6592DF008948DD /* Samson SocialTests */ = {
-			isa = PBXGroup;
-			children = (
-				05928F581D6592DF008948DD /* Samson_SocialTests.swift */,
-				05928F5A1D6592DF008948DD /* Info.plist */,
-			);
-			path = "Samson SocialTests";
-			sourceTree = "<group>";
-		};
-		05928F621D6592DF008948DD /* Samson SocialUITests */ = {
-			isa = PBXGroup;
-			children = (
-				05928F631D6592DF008948DD /* Samson_SocialUITests.swift */,
-				05928F651D6592DF008948DD /* Info.plist */,
-			);
-			path = "Samson SocialUITests";
-			sourceTree = "<group>";
-		};
-		05928F731D6595A4008948DD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				051E12AF1D6889FB00685FE9 /* Post.swift */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		05928F741D6595AA008948DD /* View */ = {
-			isa = PBXGroup;
-			children = (
-				05928F761D66C4B8008948DD /* FancyView.swift */,
-				05928F7B1D66C6E7008948DD /* RoundButton.swift */,
-				05928F7D1D66C8E3008948DD /* FancyField.swift */,
-				05928F7F1D66CA11008948DD /* FancyButton.swift */,
-				05FBFF3C1D66FC6D00D122AF /* CircleView.swift */,
-				05FBFF3E1D6706BE00D122AF /* PostCell.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		05928F751D6595B0008948DD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				05928F451D6592DE008948DD /* SignInVC.swift */,
-				05928F821D66EC88008948DD /* FeedVC.swift */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		05928F781D66C534008948DD /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				05928F791D66C542008948DD /* Constants.swift */,
-			);
-			name = Util;
-			sourceTree = "<group>";
-		};
-		7B677AD3FD33E0499A699895 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				500E66D9A7F43C45F00FCDB8 /* Pods-Samson Social.debug.xcconfig */,
-				373C9A5DD451EF5F40D3736C /* Pods-Samson Social.release.xcconfig */,
-				BB13BC3C5978019D2BCD2D07 /* Pods-Samson SocialTests.debug.xcconfig */,
-				B09F2EC50F1982E75DA30A56 /* Pods-Samson SocialTests.release.xcconfig */,
-				13B65E631F6A038DD777FFC2 /* Pods-Samson SocialUITests.debug.xcconfig */,
-				DF58F1E5B9E7A19DE8E549F4 /* Pods-Samson SocialUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A9663660385533A643F10436 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E1161D92201ED3403BD221CA /* Pods_Samson_Social.framework */,
-				EB12A3A6E3DDD6DB3FF922BB /* Pods_Samson_SocialTests.framework */,
-				FB46C3312905BCD8FB1E29FE /* Pods_Samson_SocialUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		05928F3F1D6592DE008948DD /* Samson Social */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 05928F681D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson Social" */;
-			buildPhases = (
-				AFDDDD2E08E2C7500849C814 /* Check Pods Manifest.lock */,
-				07F0B29D8F50FB1F76275822 /* [CP] Check Pods Manifest.lock */,
-				05928F3C1D6592DE008948DD /* Sources */,
-				05928F3D1D6592DE008948DD /* Frameworks */,
-				05928F3E1D6592DE008948DD /* Resources */,
-				9F2BF08F31374E36BCE3D054 /* [CP] Embed Pods Frameworks */,
-				C853B36F93821F429A2DB457 /* [CP] Copy Pods Resources */,
-				74F07DE368B3643D410DB71F /* Embed Pods Frameworks */,
-				B9C418DC7213D43D7D002365 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Samson Social";
-			productName = "Samson Social";
-			productReference = 05928F401D6592DE008948DD /* Samson Social.app */;
-			productType = "com.apple.product-type.application";
-		};
-		05928F531D6592DF008948DD /* Samson SocialTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 05928F6B1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialTests" */;
-			buildPhases = (
-				9583064C7309C998E0E3BEC1 /* Check Pods Manifest.lock */,
-				250E3EE50F3DEA58DDD3792F /* [CP] Check Pods Manifest.lock */,
-				05928F501D6592DF008948DD /* Sources */,
-				05928F511D6592DF008948DD /* Frameworks */,
-				05928F521D6592DF008948DD /* Resources */,
-				D6F857DC53BF53556ED94602 /* [CP] Embed Pods Frameworks */,
-				D80D8248224ECE6226F73175 /* [CP] Copy Pods Resources */,
-				11839BBCB1C01211FBB4CE87 /* Embed Pods Frameworks */,
-				64F660C6BFEC6151F23BCF2F /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				05928F561D6592DF008948DD /* PBXTargetDependency */,
-			);
-			name = "Samson SocialTests";
-			productName = "Samson SocialTests";
-			productReference = 05928F541D6592DF008948DD /* Samson SocialTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		05928F5E1D6592DF008948DD /* Samson SocialUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 05928F6E1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialUITests" */;
-			buildPhases = (
-				C0EBB6B5B19B1604EE24DE90 /* Check Pods Manifest.lock */,
-				5B9109C2BEAA2F44227291F2 /* [CP] Check Pods Manifest.lock */,
-				05928F5B1D6592DF008948DD /* Sources */,
-				05928F5C1D6592DF008948DD /* Frameworks */,
-				05928F5D1D6592DF008948DD /* Resources */,
-				584525347A071C41F69D439A /* [CP] Copy Pods Resources */,
-				839431DFA9A4A27CE15AADD8 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				05928F611D6592DF008948DD /* PBXTargetDependency */,
-			);
-			name = "Samson SocialUITests";
-			productName = "Samson SocialUITests";
-			productReference = 05928F5F1D6592DF008948DD /* Samson SocialUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		05928F381D6592DE008948DD /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Satel Develops";
-				TargetAttributes = {
-					05928F3F1D6592DE008948DD = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 65NL44LT3V;
-						DevelopmentTeamName = "Shawn Truesdell";
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-						SystemCapabilities = {
-							com.apple.Keychain = {
-								enabled = 1;
-							};
-						};
-					};
-					05928F531D6592DF008948DD = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 65NL44LT3V;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 05928F3F1D6592DE008948DD;
-					};
-					05928F5E1D6592DF008948DD = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 65NL44LT3V;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 05928F3F1D6592DE008948DD;
-					};
-				};
-			};
-			buildConfigurationList = 05928F3B1D6592DE008948DD /* Build configuration list for PBXProject "Samson Social" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 05928F371D6592DE008948DD;
-			productRefGroup = 05928F411D6592DE008948DD /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				05928F3F1D6592DE008948DD /* Samson Social */,
-				05928F531D6592DF008948DD /* Samson SocialTests */,
-				05928F5E1D6592DF008948DD /* Samson SocialUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		05928F3E1D6592DE008948DD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05928F4E1D6592DE008948DD /* LaunchScreen.storyboard in Resources */,
-				05928F721D65934E008948DD /* GoogleService-Info.plist in Resources */,
-				05928F4B1D6592DE008948DD /* Assets.xcassets in Resources */,
-				05928F491D6592DE008948DD /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		05928F521D6592DF008948DD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		05928F5D1D6592DF008948DD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		07F0B29D8F50FB1F76275822 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		11839BBCB1C01211FBB4CE87 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		250E3EE50F3DEA58DDD3792F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		584525347A071C41F69D439A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5B9109C2BEAA2F44227291F2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		64F660C6BFEC6151F23BCF2F /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		74F07DE368B3643D410DB71F /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		839431DFA9A4A27CE15AADD8 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9583064C7309C998E0E3BEC1 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9F2BF08F31374E36BCE3D054 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AFDDDD2E08E2C7500849C814 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B9C418DC7213D43D7D002365 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C0EBB6B5B19B1604EE24DE90 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C853B36F93821F429A2DB457 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D6F857DC53BF53556ED94602 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D80D8248224ECE6226F73175 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		05928F3C1D6592DE008948DD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05FBFF3D1D66FC6D00D122AF /* CircleView.swift in Sources */,
-				05928F7E1D66C8E3008948DD /* FancyField.swift in Sources */,
-				05928F461D6592DE008948DD /* SignInVC.swift in Sources */,
-				051E12B01D6889FB00685FE9 /* Post.swift in Sources */,
-				05928F7C1D66C6E7008948DD /* RoundButton.swift in Sources */,
-				05928F801D66CA11008948DD /* FancyButton.swift in Sources */,
-				0558DE351D6854D30098D271 /* DataService.swift in Sources */,
-				05928F831D66EC88008948DD /* FeedVC.swift in Sources */,
-				05928F441D6592DE008948DD /* AppDelegate.swift in Sources */,
-				05928F771D66C4B8008948DD /* FancyView.swift in Sources */,
-				05928F7A1D66C542008948DD /* Constants.swift in Sources */,
-				05FBFF3F1D6706BE00D122AF /* PostCell.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		05928F501D6592DF008948DD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05928F591D6592DF008948DD /* Samson_SocialTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		05928F5B1D6592DF008948DD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05928F641D6592DF008948DD /* Samson_SocialUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		05928F561D6592DF008948DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 05928F3F1D6592DE008948DD /* Samson Social */;
-			targetProxy = 05928F551D6592DF008948DD /* PBXContainerItemProxy */;
-		};
-		05928F611D6592DF008948DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 05928F3F1D6592DE008948DD /* Samson Social */;
-			targetProxy = 05928F601D6592DF008948DD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		05928F471D6592DE008948DD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05928F481D6592DE008948DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		05928F4C1D6592DE008948DD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05928F4D1D6592DE008948DD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		05928F661D6592DF008948DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		05928F671D6592DF008948DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		05928F691D6592DF008948DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 500E66D9A7F43C45F00FCDB8 /* Pods-Samson Social.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Samson Social/Samson Social.entitlements";
-				DEVELOPMENT_TEAM = 65NL44LT3V;
-				INFOPLIST_FILE = "Samson Social/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.Samson-Social";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		05928F6A1D6592DF008948DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 373C9A5DD451EF5F40D3736C /* Pods-Samson Social.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Samson Social/Samson Social.entitlements";
-				DEVELOPMENT_TEAM = 65NL44LT3V;
-				INFOPLIST_FILE = "Samson Social/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.Samson-Social";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		05928F6C1D6592DF008948DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB13BC3C5978019D2BCD2D07 /* Pods-Samson SocialTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 65NL44LT3V;
-				INFOPLIST_FILE = "Samson SocialTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.samsonsocial.Samson-SocialTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Samson Social.app/Samson Social";
-			};
-			name = Debug;
-		};
-		05928F6D1D6592DF008948DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B09F2EC50F1982E75DA30A56 /* Pods-Samson SocialTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 65NL44LT3V;
-				INFOPLIST_FILE = "Samson SocialTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.samsonsocial.Samson-SocialTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Samson Social.app/Samson Social";
-			};
-			name = Release;
-		};
-		05928F6F1D6592DF008948DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13B65E631F6A038DD777FFC2 /* Pods-Samson SocialUITests.debug.xcconfig */;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 65NL44LT3V;
-				INFOPLIST_FILE = "Samson SocialUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.samsonsocial.Samson-SocialUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Samson Social";
-			};
-			name = Debug;
-		};
-		05928F701D6592DF008948DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF58F1E5B9E7A19DE8E549F4 /* Pods-Samson SocialUITests.release.xcconfig */;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 65NL44LT3V;
-				INFOPLIST_FILE = "Samson SocialUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.samsonsocial.Samson-SocialUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Samson Social";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		05928F3B1D6592DE008948DD /* Build configuration list for PBXProject "Samson Social" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				05928F661D6592DF008948DD /* Debug */,
-				05928F671D6592DF008948DD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		05928F681D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson Social" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				05928F691D6592DF008948DD /* Debug */,
-				05928F6A1D6592DF008948DD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		05928F6B1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				05928F6C1D6592DF008948DD /* Debug */,
-				05928F6D1D6592DF008948DD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		05928F6E1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				05928F6F1D6592DF008948DD /* Debug */,
-				05928F701D6592DF008948DD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 05928F381D6592DE008948DD /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>051E12AF1D6889FB00685FE9</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Post.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>051E12B01D6889FB00685FE9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>051E12AF1D6889FB00685FE9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0558DE331D6854B80098D271</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0558DE341D6854D30098D271</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Services</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0558DE341D6854D30098D271</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>DataService.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0558DE351D6854D30098D271</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0558DE341D6854D30098D271</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F371D6592DE008948DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>05928F421D6592DE008948DD</string>
+				<string>05928F571D6592DF008948DD</string>
+				<string>05928F621D6592DF008948DD</string>
+				<string>05928F411D6592DE008948DD</string>
+				<string>1132D622564BE5455DDC2001</string>
+				<string>D6DAE76E85EF5A1DBE9E5DC2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F381D6592DE008948DD</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0800</string>
+				<key>LastUpgradeCheck</key>
+				<string>0800</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Satel Develops</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>05928F3F1D6592DE008948DD</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.0</string>
+						<key>DevelopmentTeam</key>
+						<string>65NL44LT3V</string>
+						<key>DevelopmentTeamName</key>
+						<string>Shawn Truesdell</string>
+						<key>LastSwiftMigration</key>
+						<string>0800</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+						<key>SystemCapabilities</key>
+						<dict>
+							<key>com.apple.Keychain</key>
+							<dict>
+								<key>enabled</key>
+								<string>1</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>05928F531D6592DF008948DD</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.0</string>
+						<key>DevelopmentTeam</key>
+						<string>65NL44LT3V</string>
+						<key>LastSwiftMigration</key>
+						<string>0800</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+						<key>TestTargetID</key>
+						<string>05928F3F1D6592DE008948DD</string>
+					</dict>
+					<key>05928F5E1D6592DF008948DD</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.0</string>
+						<key>DevelopmentTeam</key>
+						<string>65NL44LT3V</string>
+						<key>LastSwiftMigration</key>
+						<string>0800</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+						<key>TestTargetID</key>
+						<string>05928F3F1D6592DE008948DD</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>05928F3B1D6592DE008948DD</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>05928F371D6592DE008948DD</string>
+			<key>productRefGroup</key>
+			<string>05928F411D6592DE008948DD</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>05928F3F1D6592DE008948DD</string>
+				<string>05928F531D6592DF008948DD</string>
+				<string>05928F5E1D6592DF008948DD</string>
+			</array>
+		</dict>
+		<key>05928F3B1D6592DE008948DD</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>05928F661D6592DF008948DD</string>
+				<string>05928F671D6592DF008948DD</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>05928F3C1D6592DE008948DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>05FBFF3D1D66FC6D00D122AF</string>
+				<string>05928F7E1D66C8E3008948DD</string>
+				<string>05928F461D6592DE008948DD</string>
+				<string>051E12B01D6889FB00685FE9</string>
+				<string>05928F7C1D66C6E7008948DD</string>
+				<string>05928F801D66CA11008948DD</string>
+				<string>0558DE351D6854D30098D271</string>
+				<string>05928F831D66EC88008948DD</string>
+				<string>05928F441D6592DE008948DD</string>
+				<string>05928F771D66C4B8008948DD</string>
+				<string>05928F7A1D66C542008948DD</string>
+				<string>05FBFF3F1D6706BE00D122AF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>05928F3D1D6592DE008948DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D4542D4991CE3827E66C4BFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>05928F3E1D6592DE008948DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>05928F4E1D6592DE008948DD</string>
+				<string>05928F721D65934E008948DD</string>
+				<string>05928F4B1D6592DE008948DD</string>
+				<string>05928F491D6592DE008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>05928F3F1D6592DE008948DD</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>05928F681D6592DF008948DD</string>
+			<key>buildPhases</key>
+			<array>
+				<string>3F5122A0E6DF8CF98DF43C43</string>
+				<string>07F0B29D8F50FB1F76275822</string>
+				<string>05928F3C1D6592DE008948DD</string>
+				<string>05928F3D1D6592DE008948DD</string>
+				<string>05928F3E1D6592DE008948DD</string>
+				<string>9F2BF08F31374E36BCE3D054</string>
+				<string>C853B36F93821F429A2DB457</string>
+				<string>FC233144111699394FF652E2</string>
+				<string>26EA706EB75F0231E75BBB56</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Samson Social</string>
+			<key>productName</key>
+			<string>Samson Social</string>
+			<key>productReference</key>
+			<string>05928F401D6592DE008948DD</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>05928F401D6592DE008948DD</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Samson Social.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>05928F411D6592DE008948DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>05928F401D6592DE008948DD</string>
+				<string>05928F541D6592DF008948DD</string>
+				<string>05928F5F1D6592DF008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F421D6592DE008948DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0558DE331D6854B80098D271</string>
+				<string>05928F811D66DCFA008948DD</string>
+				<string>05928F781D66C534008948DD</string>
+				<string>05928F731D6595A4008948DD</string>
+				<string>05928F751D6595B0008948DD</string>
+				<string>05928F741D6595AA008948DD</string>
+				<string>05928F431D6592DE008948DD</string>
+				<string>05928F471D6592DE008948DD</string>
+				<string>05928F4A1D6592DE008948DD</string>
+				<string>05928F4C1D6592DE008948DD</string>
+				<string>05928F4F1D6592DE008948DD</string>
+				<string>05928F711D65934E008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Samson Social</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F431D6592DE008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F441D6592DE008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F431D6592DE008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F451D6592DE008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>SignInVC.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F461D6592DE008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F451D6592DE008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F471D6592DE008948DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>05928F481D6592DE008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F481D6592DE008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F491D6592DE008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F471D6592DE008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F4A1D6592DE008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F4B1D6592DE008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F4A1D6592DE008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F4C1D6592DE008948DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>05928F4D1D6592DE008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F4D1D6592DE008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F4E1D6592DE008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F4C1D6592DE008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F4F1D6592DE008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F501D6592DF008948DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>05928F591D6592DF008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>05928F511D6592DF008948DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9B4E88A3F36DEDED6B1FC577</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>05928F521D6592DF008948DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>05928F531D6592DF008948DD</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>05928F6B1D6592DF008948DD</string>
+			<key>buildPhases</key>
+			<array>
+				<string>F172A32272DE0482E13DBA99</string>
+				<string>250E3EE50F3DEA58DDD3792F</string>
+				<string>05928F501D6592DF008948DD</string>
+				<string>05928F511D6592DF008948DD</string>
+				<string>05928F521D6592DF008948DD</string>
+				<string>D6F857DC53BF53556ED94602</string>
+				<string>D80D8248224ECE6226F73175</string>
+				<string>A7A22119789FAA650CEBF3CD</string>
+				<string>B81C2B72FF8FD78F31A7EC46</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>05928F561D6592DF008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Samson SocialTests</string>
+			<key>productName</key>
+			<string>Samson SocialTests</string>
+			<key>productReference</key>
+			<string>05928F541D6592DF008948DD</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>05928F541D6592DF008948DD</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Samson SocialTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>05928F551D6592DF008948DD</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>05928F381D6592DE008948DD</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>05928F3F1D6592DE008948DD</string>
+			<key>remoteInfo</key>
+			<string>Samson Social</string>
+		</dict>
+		<key>05928F561D6592DF008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>05928F3F1D6592DE008948DD</string>
+			<key>targetProxy</key>
+			<string>05928F551D6592DF008948DD</string>
+		</dict>
+		<key>05928F571D6592DF008948DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>05928F581D6592DF008948DD</string>
+				<string>05928F5A1D6592DF008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Samson SocialTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F581D6592DF008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Samson_SocialTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F591D6592DF008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F581D6592DF008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F5A1D6592DF008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F5B1D6592DF008948DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>05928F641D6592DF008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>05928F5C1D6592DF008948DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>69CC8FDBC2A02B70DC7D4FCD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>05928F5D1D6592DF008948DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>05928F5E1D6592DF008948DD</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>05928F6E1D6592DF008948DD</string>
+			<key>buildPhases</key>
+			<array>
+				<string>40CC1EAED42F1B257BCE5728</string>
+				<string>5B9109C2BEAA2F44227291F2</string>
+				<string>05928F5B1D6592DF008948DD</string>
+				<string>05928F5C1D6592DF008948DD</string>
+				<string>05928F5D1D6592DF008948DD</string>
+				<string>584525347A071C41F69D439A</string>
+				<string>AFC990C8BF1DBEB13D7E3211</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>05928F611D6592DF008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Samson SocialUITests</string>
+			<key>productName</key>
+			<string>Samson SocialUITests</string>
+			<key>productReference</key>
+			<string>05928F5F1D6592DF008948DD</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>05928F5F1D6592DF008948DD</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Samson SocialUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>05928F601D6592DF008948DD</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>05928F381D6592DE008948DD</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>05928F3F1D6592DE008948DD</string>
+			<key>remoteInfo</key>
+			<string>Samson Social</string>
+		</dict>
+		<key>05928F611D6592DF008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>05928F3F1D6592DE008948DD</string>
+			<key>targetProxy</key>
+			<string>05928F601D6592DF008948DD</string>
+		</dict>
+		<key>05928F621D6592DF008948DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>05928F631D6592DF008948DD</string>
+				<string>05928F651D6592DF008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Samson SocialUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F631D6592DF008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Samson_SocialUITests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F641D6592DF008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F631D6592DF008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F651D6592DF008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F661D6592DF008948DD</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
+				<string>DEBUG</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>05928F671D6592DF008948DD</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Owholemodule</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>05928F681D6592DF008948DD</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>05928F691D6592DF008948DD</string>
+				<string>05928F6A1D6592DF008948DD</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>05928F691D6592DF008948DD</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>94EDFE8B349DC941926EACA3</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_ENTITLEMENTS</key>
+				<string>Samson Social/Samson Social.entitlements</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>65NL44LT3V</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Samson Social/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.satelshawn.Samson-Social</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>05928F6A1D6592DF008948DD</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>8A85508887E9F2EF392DBA87</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_ENTITLEMENTS</key>
+				<string>Samson Social/Samson Social.entitlements</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>65NL44LT3V</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Samson Social/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.satelshawn.Samson-Social</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>05928F6B1D6592DF008948DD</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>05928F6C1D6592DF008948DD</string>
+				<string>05928F6D1D6592DF008948DD</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>05928F6C1D6592DF008948DD</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>89345FA7E2A7C3D256AE836E</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>65NL44LT3V</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Samson SocialTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.satelshawn.samsonsocial.Samson-SocialTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Samson Social.app/Samson Social</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>05928F6D1D6592DF008948DD</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>74A8F4A5963BDAB8B04BE626</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>65NL44LT3V</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Samson SocialTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.satelshawn.samsonsocial.Samson-SocialTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Samson Social.app/Samson Social</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>05928F6E1D6592DF008948DD</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>05928F6F1D6592DF008948DD</string>
+				<string>05928F701D6592DF008948DD</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>05928F6F1D6592DF008948DD</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>1BA6777C67CBF3FC2728E5C4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>65NL44LT3V</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Samson SocialUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.satelshawn.samsonsocial.Samson-SocialUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>Samson Social</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>05928F701D6592DF008948DD</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>2C728BEB7EEDE7279444CEA8</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>65NL44LT3V</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Samson SocialUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.satelshawn.samsonsocial.Samson-SocialUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>Samson Social</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>05928F711D65934E008948DD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>GoogleService-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F721D65934E008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F711D65934E008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F731D6595A4008948DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>051E12AF1D6889FB00685FE9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Model</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F741D6595AA008948DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>05928F761D66C4B8008948DD</string>
+				<string>05928F7B1D66C6E7008948DD</string>
+				<string>05928F7D1D66C8E3008948DD</string>
+				<string>05928F7F1D66CA11008948DD</string>
+				<string>05FBFF3C1D66FC6D00D122AF</string>
+				<string>05FBFF3E1D6706BE00D122AF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>View</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F751D6595B0008948DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>05928F451D6592DE008948DD</string>
+				<string>05928F821D66EC88008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Controller</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F761D66C4B8008948DD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>FancyView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F771D66C4B8008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F761D66C4B8008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F781D66C534008948DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>05928F791D66C542008948DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Util</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F791D66C542008948DD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Constants.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F7A1D66C542008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F791D66C542008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F7B1D66C6E7008948DD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>RoundButton.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F7C1D66C6E7008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F7B1D66C6E7008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F7D1D66C8E3008948DD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>FancyField.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F7E1D66C8E3008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F7D1D66C8E3008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F7F1D66CA11008948DD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>FancyButton.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F801D66CA11008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F7F1D66CA11008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05928F811D66DCFA008948DD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.entitlements</string>
+			<key>path</key>
+			<string>Samson Social.entitlements</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F821D66EC88008948DD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>FeedVC.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05928F831D66EC88008948DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05928F821D66EC88008948DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05FBFF3C1D66FC6D00D122AF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>CircleView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05FBFF3D1D66FC6D00D122AF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05FBFF3C1D66FC6D00D122AF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05FBFF3E1D6706BE00D122AF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PostCell.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05FBFF3F1D6706BE00D122AF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05FBFF3E1D6706BE00D122AF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>07F0B29D8F50FB1F76275822</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>1132D622564BE5455DDC2001</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>94EDFE8B349DC941926EACA3</string>
+				<string>8A85508887E9F2EF392DBA87</string>
+				<string>89345FA7E2A7C3D256AE836E</string>
+				<string>74A8F4A5963BDAB8B04BE626</string>
+				<string>1BA6777C67CBF3FC2728E5C4</string>
+				<string>2C728BEB7EEDE7279444CEA8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1BA6777C67CBF3FC2728E5C4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Samson SocialUITests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>250E3EE50F3DEA58DDD3792F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>26EA706EB75F0231E75BBB56</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>2C728BEB7EEDE7279444CEA8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Samson SocialUITests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3F5122A0E6DF8CF98DF43C43</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>40CC1EAED42F1B257BCE5728</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>584525347A071C41F69D439A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>5B9109C2BEAA2F44227291F2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>69CC8FDBC2A02B70DC7D4FCD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>810C19A2815454F85953264A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6AE5543DE66CEBBF11348E24</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_Samson_Social.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>74A8F4A5963BDAB8B04BE626</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Samson SocialTests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>810C19A2815454F85953264A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_Samson_SocialUITests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>89345FA7E2A7C3D256AE836E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Samson SocialTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8A85508887E9F2EF392DBA87</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Samson Social.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>94EDFE8B349DC941926EACA3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Samson Social.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9B4E88A3F36DEDED6B1FC577</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FE3EAC25AF911C10736B6B14</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9F2BF08F31374E36BCE3D054</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>A7A22119789FAA650CEBF3CD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>AFC990C8BF1DBEB13D7E3211</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>B81C2B72FF8FD78F31A7EC46</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>C853B36F93821F429A2DB457</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>D4542D4991CE3827E66C4BFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6AE5543DE66CEBBF11348E24</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D6DAE76E85EF5A1DBE9E5DC2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6AE5543DE66CEBBF11348E24</string>
+				<string>FE3EAC25AF911C10736B6B14</string>
+				<string>810C19A2815454F85953264A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D6F857DC53BF53556ED94602</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>D80D8248224ECE6226F73175</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>F172A32272DE0482E13DBA99</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>FC233144111699394FF652E2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>FE3EAC25AF911C10736B6B14</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_Samson_SocialTests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>05928F381D6592DE008948DD</string>
+</dict>
+</plist>

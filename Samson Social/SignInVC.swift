@@ -10,13 +10,16 @@ import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 import Firebase
-import SwiftKeychainWrapper
+import KeychainSwift
+//import SwiftKeychainWrapper
+//import KeychainSwit
 
 class SignInVC: UIViewController {
 
     @IBOutlet weak var emailField: FancyField!
     @IBOutlet weak var pwdField: FancyField!
     
+    let keychain = KeychainSwift()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +28,8 @@ class SignInVC: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        if let _ = KeychainWrapper.stringForKey(KEY_UID) {
+        //KeychainWrapper.stringForKey(KEY_UID)
+        if let _ = keychain.get(KEY_UID) {
             performSegue(withIdentifier: "goToFeed", sender: self)
         }
     }
@@ -106,7 +110,7 @@ class SignInVC: UIViewController {
     
     func completeSignIn(id: String, userData : Dictionary<String, String>) {
         DataService.ds.createFirebaseDBUser(uid: id, userData: userData)
-        let successful = KeychainWrapper.setString(id, forKey: KEY_UID)
+        let successful = keychain.set(id, forKey: KEY_UID)//KeychainWrapper.setString(id, forKey: KEY_UID)
         print("Shawn: The keychain addition was \(successful)")
         performSegue(withIdentifier: "goToFeed", sender: self)
     }

@@ -87,11 +87,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Samson Social/Bolts.framework"
   install_framework "Pods-Samson Social/FBSDKCoreKit.framework"
   install_framework "Pods-Samson Social/FBSDKLoginKit.framework"
-  install_framework "Pods-Samson Social/SwiftKeychainWrapper.framework"
+  install_framework "Pods-Samson Social/KeychainSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Samson Social/Bolts.framework"
   install_framework "Pods-Samson Social/FBSDKCoreKit.framework"
   install_framework "Pods-Samson Social/FBSDKLoginKit.framework"
-  install_framework "Pods-Samson Social/SwiftKeychainWrapper.framework"
+  install_framework "Pods-Samson Social/KeychainSwift.framework"
 fi

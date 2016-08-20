@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>KeychainSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Samson Social.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -34,11 +39,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SwiftKeychainWrapper.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -47,12 +47,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1A9A5099078DA0F8277DC9FEF4D79D93</key>
+		<key>2A4A3E637D3787790E91A3BF340EA15C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2A4A3E637D3787790E91A3BF340EA15C</key>
+		<key>4C698C648EE4D43C6B8BE0BE1FE91737</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,7 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E9CDC180C3D1E732653DD3606AE8BDC2</key>
+		<key>EFEADC76599B8E9E6C548AFC7468E0AC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
