@@ -21,11 +21,17 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         performSegue(withIdentifier: "goToSignIn", sender: nil)
     }
     
+    //MARK: View Life Cycle Functions
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+
+        DataService.ds.REF_POSTS.observe(.value, with: {(snapsot) in
+            print(snapsot.value)
+        })
+                
     }
 
     override func didReceiveMemoryWarning() {
