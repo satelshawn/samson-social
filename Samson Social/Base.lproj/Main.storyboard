@@ -169,10 +169,14 @@
                                         <subviews>
                                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-image" translatesAutoresizingMaskIntoConstraints="NO" id="a4C-Rr-g8K" customClass="CircleView" customModule="Samson_Social" customModuleProvider="target">
                                                 <color key="backgroundColor" red="0.0" green="0.51372549020000002" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="49" id="WbI-5W-dcZ"/>
                                                     <constraint firstAttribute="height" constant="49" id="gXc-rK-Pjq"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="FSl-R9-8TE" appends="YES" id="ayT-8v-Wuk"/>
+                                                </connections>
                                             </imageView>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Add a caption" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bbf-aA-LLW" customClass="FancyField" customModule="Samson_Social" customModuleProvider="target">
                                                 <nil key="textColor"/>
@@ -307,6 +311,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageAdd" destination="a4C-Rr-g8K" id="AwP-yt-FWo"/>
                         <outlet property="tableView" destination="xlw-u0-a5r" id="50f-Ff-HSY"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="goToSignIn" id="ZKs-yW-9rv"/>
                     </connections>
@@ -315,6 +320,11 @@
                 <tapGestureRecognizer id="148-OZ-hCD">
                     <connections>
                         <action selector="signOutTapped:" destination="Rd4-ES-Zx1" id="nFa-Ov-xEN"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="FSl-R9-8TE">
+                    <connections>
+                        <action selector="addImageTapped:" destination="Rd4-ES-Zx1" id="vly-lc-4PJ"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
