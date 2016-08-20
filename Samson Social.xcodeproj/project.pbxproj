@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051E12B01D6889FB00685FE9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051E12AF1D6889FB00685FE9 /* Post.swift */; };
 		0558DE351D6854D30098D271 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558DE341D6854D30098D271 /* DataService.swift */; };
 		05928F441D6592DE008948DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F431D6592DE008948DD /* AppDelegate.swift */; };
 		05928F461D6592DE008948DD /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F451D6592DE008948DD /* SignInVC.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051E12AF1D6889FB00685FE9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		0558DE341D6854D30098D271 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		05928F401D6592DE008948DD /* Samson Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Samson Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05928F431D6592DE008948DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 		05928F731D6595A4008948DD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				051E12AF1D6889FB00685FE9 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -646,6 +649,7 @@
 				05FBFF3D1D66FC6D00D122AF /* CircleView.swift in Sources */,
 				05928F7E1D66C8E3008948DD /* FancyField.swift in Sources */,
 				05928F461D6592DE008948DD /* SignInVC.swift in Sources */,
+				051E12B01D6889FB00685FE9 /* Post.swift in Sources */,
 				05928F7C1D66C6E7008948DD /* RoundButton.swift in Sources */,
 				05928F801D66CA11008948DD /* FancyButton.swift in Sources */,
 				0558DE351D6854D30098D271 /* DataService.swift in Sources */,

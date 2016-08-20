@@ -11,7 +11,9 @@ import SwiftKeychainWrapper
 import Firebase
 
 class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+    
+    var posts = [Post]()
+    
     @IBOutlet weak var tableView: UITableView!
     
     @IBAction func signOutTapped(_ sender: AnyObject) {
@@ -28,10 +30,21 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.delegate = self
         tableView.dataSource = self
 
-        DataService.ds.REF_POSTS.observe(.value, with: {(snapsot) in
-            print(snapsot.value)
+        DataService.ds.REF_POSTS.observe(.value, with: {(snapshot) in
+            if let snapshots = snapshot.children.allObjects as? [FIRDataSnapshot] {
+                for snap in snapshots {
+                    print("SNAP: \(snap)")
+                    if let postDict = snap.value as? Dictionary<String, AnyObject> {
+                        let key = snap.key
+                        let post = Post(postKey: key, postData: postDict)
+                        self.posts.append(post)
+                    }
+                }
+            }
+            self.tableView.reloadData()
         })
-                
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,11 +59,16 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return posts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+
+        let post = posts[indexPath.row]
+        print("Shawn: \(post.caption)")
+        
         return tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
+
     }
 
 }
