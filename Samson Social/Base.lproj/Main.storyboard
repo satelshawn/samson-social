@@ -290,6 +290,7 @@
                                         <color key="backgroundColor" red="0.92549019610000005" green="0.93725490199999995" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="caption" destination="oiA-ez-PJA" id="uOG-Uq-EHK"/>
+                                            <outlet property="likeImage" destination="dHo-Zs-iOk" id="gw5-Fl-oJT"/>
                                             <outlet property="likesLabel" destination="Kgg-5v-zuz" id="Y6X-Sx-OcT"/>
                                             <outlet property="postImage" destination="pvB-lF-MqB" id="yeU-0G-i9S"/>
                                             <outlet property="profileImage" destination="1b0-Yq-aSU" id="NDm-Up-ro0"/>
