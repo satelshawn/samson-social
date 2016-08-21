@@ -134,7 +134,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z6s-NA-FJh" customClass="FancyView" customModule="Samson_Social" customModuleProvider="target">
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign-out" translatesAutoresizingMaskIntoConstraints="NO" id="Z91-ip-cx9">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign-out" translatesAutoresizingMaskIntoConstraints="NO" id="Z91-ip-cx9">
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="4wH-7H-JN5"/>

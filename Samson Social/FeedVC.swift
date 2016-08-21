@@ -9,6 +9,7 @@
 import UIKit
 //import SwiftKeychainWrapper
 import Firebase
+import KeychainSwift
 
 class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
@@ -44,16 +45,37 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
                 } else {
                     print("Shawn: Successfully uploaded image to Firebase storage")
                     let downloadURL = metadata?.downloadURL()?.absoluteString
+                    if let url = downloadURL {
+                        self.postToFirebase(imageUrl: url)
+                    }
+                    
                 }
             }
             
         }
+    }
+    
+    func postToFirebase(imageUrl: String) {
+        let post: Dictionary<String, Any> = [
+            "caption": captionField.text!,
+            "imageUrl": imageUrl,
+            "likes": 0
+        ]
         
+        let firebasePost = DataService.ds.REF_POSTS.childByAutoId()
+        firebasePost.setValue(post)
+        
+        captionField.text = ""
+        imageAdd.image = UIImage(named: "add-image")
+        tableView.reloadData()
     }
     
     @IBAction func signOutTapped(_ sender: AnyObject) {
 //        let keychainResult = KeychainWrapper.removeObjectForKey(KEY_UID)
 //        print("Shawn: ID removed from keychain \(keychainResult)")
+        print("Shawn: Sign out tapped.")
+        let keychain = KeychainSwift()
+        keychain.delete(KEY_UID)
         try! FIRAuth.auth()?.signOut()
         performSegue(withIdentifier: "goToSignIn", sender: nil)
     }
