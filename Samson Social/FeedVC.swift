@@ -19,6 +19,37 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var imageAdd: CircleView!
+    @IBOutlet weak var captionField: FancyField!
+    
+    
+    @IBAction func postButtonTapped(_ sender: AnyObject) {
+        guard let caption = captionField.text, caption != "" else {
+            print("Shawn: Caption must be entered.")
+            return
+        }
+        guard let image = imageAdd.image, imageAdd.image != UIImage(named: "add-image") else {
+            print("Shawn: An Image must be selected.")
+            return
+        }
+        
+        if let imageData = UIImageJPEGRepresentation(image, 0.2) {
+            
+            let imgUid = NSUUID().uuidString
+            let metaData = FIRStorageMetadata()
+            metaData.contentType = "image/jpeg"
+            
+            DataService.ds.REF_POST_IMAGES.child(imgUid).put(imageData, metadata: metaData) { (metadata, error) in
+                if error != nil {
+                    print("Shawn: Unable to upload the image to Firebase storage - \(error)")
+                } else {
+                    print("Shawn: Successfully uploaded image to Firebase storage")
+                    let downloadURL = metadata?.downloadURL()?.absoluteString
+                }
+            }
+            
+        }
+        
+    }
     
     @IBAction func signOutTapped(_ sender: AnyObject) {
 //        let keychainResult = KeychainWrapper.removeObjectForKey(KEY_UID)
