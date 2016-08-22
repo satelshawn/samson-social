@@ -25,9 +25,9 @@
 		05928F831D66EC88008948DD /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F821D66EC88008948DD /* FeedVC.swift */; };
 		05FBFF3D1D66FC6D00D122AF /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBFF3C1D66FC6D00D122AF /* CircleView.swift */; };
 		05FBFF3F1D6706BE00D122AF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBFF3E1D6706BE00D122AF /* PostCell.swift */; };
-		69CC8FDBC2A02B70DC7D4FCD /* Pods_Samson_SocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810C19A2815454F85953264A /* Pods_Samson_SocialUITests.framework */; };
-		9B4E88A3F36DEDED6B1FC577 /* Pods_Samson_SocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3EAC25AF911C10736B6B14 /* Pods_Samson_SocialTests.framework */; };
-		D4542D4991CE3827E66C4BFF /* Pods_Samson_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE5543DE66CEBBF11348E24 /* Pods_Samson_Social.framework */; };
+		4709E814C875376DC032F2CE /* Pods_Samson_SocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F7C7C9BA9E7EEA2FDD0548 /* Pods_Samson_SocialUITests.framework */; };
+		7D5AB9BA26D79F379F098805 /* Pods_Samson_SocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D33306124AB88E6F862519D /* Pods_Samson_SocialTests.framework */; };
+		F046EA507BCA040907016E8D /* Pods_Samson_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED66B764997195B634033DB /* Pods_Samson_Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,15 +73,15 @@
 		05928F821D66EC88008948DD /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		05FBFF3C1D66FC6D00D122AF /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		05FBFF3E1D6706BE00D122AF /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
-		1BA6777C67CBF3FC2728E5C4 /* Pods-Samson SocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2C728BEB7EEDE7279444CEA8 /* Pods-Samson SocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6AE5543DE66CEBBF11348E24 /* Pods_Samson_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samson_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		74A8F4A5963BDAB8B04BE626 /* Pods-Samson SocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests.release.xcconfig"; sourceTree = "<group>"; };
-		810C19A2815454F85953264A /* Pods_Samson_SocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samson_SocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89345FA7E2A7C3D256AE836E /* Pods-Samson SocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8A85508887E9F2EF392DBA87 /* Pods-Samson Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social.release.xcconfig"; sourceTree = "<group>"; };
-		94EDFE8B349DC941926EACA3 /* Pods-Samson Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social.debug.xcconfig"; sourceTree = "<group>"; };
-		FE3EAC25AF911C10736B6B14 /* Pods_Samson_SocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samson_SocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		238C1A398D9045D9099C433B /* Pods-Samson SocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D33306124AB88E6F862519D /* Pods_Samson_SocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samson_SocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5407539C233DC16DBB3921A8 /* Pods-Samson Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social.debug.xcconfig"; sourceTree = "<group>"; };
+		6ED66B764997195B634033DB /* Pods_Samson_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samson_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74907BB5559BF85BB61C3BBA /* Pods-Samson Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social.release.xcconfig"; sourceTree = "<group>"; };
+		B4F7C7C9BA9E7EEA2FDD0548 /* Pods_Samson_SocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samson_SocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F4A652B4C0488D70AB24AD /* Pods-Samson SocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA56472E6236D2A5A623DD75 /* Pods-Samson SocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED2474070EE2364E0C12C449 /* Pods-Samson SocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4542D4991CE3827E66C4BFF /* Pods_Samson_Social.framework in Frameworks */,
+				F046EA507BCA040907016E8D /* Pods_Samson_Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B4E88A3F36DEDED6B1FC577 /* Pods_Samson_SocialTests.framework in Frameworks */,
+				7D5AB9BA26D79F379F098805 /* Pods_Samson_SocialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CC8FDBC2A02B70DC7D4FCD /* Pods_Samson_SocialUITests.framework in Frameworks */,
+				4709E814C875376DC032F2CE /* Pods_Samson_SocialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,8 +127,8 @@
 				05928F571D6592DF008948DD /* Samson SocialTests */,
 				05928F621D6592DF008948DD /* Samson SocialUITests */,
 				05928F411D6592DE008948DD /* Products */,
-				1132D622564BE5455DDC2001 /* Pods */,
-				D6DAE76E85EF5A1DBE9E5DC2 /* Frameworks */,
+				58A08CA7E32093148A1352C7 /* Pods */,
+				1E307EE2ECA7509AE03A877D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,27 +217,27 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
-		1132D622564BE5455DDC2001 /* Pods */ = {
+		1E307EE2ECA7509AE03A877D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				94EDFE8B349DC941926EACA3 /* Pods-Samson Social.debug.xcconfig */,
-				8A85508887E9F2EF392DBA87 /* Pods-Samson Social.release.xcconfig */,
-				89345FA7E2A7C3D256AE836E /* Pods-Samson SocialTests.debug.xcconfig */,
-				74A8F4A5963BDAB8B04BE626 /* Pods-Samson SocialTests.release.xcconfig */,
-				1BA6777C67CBF3FC2728E5C4 /* Pods-Samson SocialUITests.debug.xcconfig */,
-				2C728BEB7EEDE7279444CEA8 /* Pods-Samson SocialUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D6DAE76E85EF5A1DBE9E5DC2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6AE5543DE66CEBBF11348E24 /* Pods_Samson_Social.framework */,
-				FE3EAC25AF911C10736B6B14 /* Pods_Samson_SocialTests.framework */,
-				810C19A2815454F85953264A /* Pods_Samson_SocialUITests.framework */,
+				6ED66B764997195B634033DB /* Pods_Samson_Social.framework */,
+				2D33306124AB88E6F862519D /* Pods_Samson_SocialTests.framework */,
+				B4F7C7C9BA9E7EEA2FDD0548 /* Pods_Samson_SocialUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58A08CA7E32093148A1352C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5407539C233DC16DBB3921A8 /* Pods-Samson Social.debug.xcconfig */,
+				74907BB5559BF85BB61C3BBA /* Pods-Samson Social.release.xcconfig */,
+				ED2474070EE2364E0C12C449 /* Pods-Samson SocialTests.debug.xcconfig */,
+				E8F4A652B4C0488D70AB24AD /* Pods-Samson SocialTests.release.xcconfig */,
+				238C1A398D9045D9099C433B /* Pods-Samson SocialUITests.debug.xcconfig */,
+				EA56472E6236D2A5A623DD75 /* Pods-Samson SocialUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +254,6 @@
 				05928F3E1D6592DE008948DD /* Resources */,
 				9F2BF08F31374E36BCE3D054 /* [CP] Embed Pods Frameworks */,
 				C853B36F93821F429A2DB457 /* [CP] Copy Pods Resources */,
-				FC233144111699394FF652E2 /* Embed Pods Frameworks */,
-				26EA706EB75F0231E75BBB56 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,8 +275,6 @@
 				05928F521D6592DF008948DD /* Resources */,
 				D6F857DC53BF53556ED94602 /* [CP] Embed Pods Frameworks */,
 				D80D8248224ECE6226F73175 /* [CP] Copy Pods Resources */,
-				A7A22119789FAA650CEBF3CD /* Embed Pods Frameworks */,
-				B81C2B72FF8FD78F31A7EC46 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,7 +296,6 @@
 				05928F5C1D6592DF008948DD /* Frameworks */,
 				05928F5D1D6592DF008948DD /* Resources */,
 				584525347A071C41F69D439A /* [CP] Copy Pods Resources */,
-				AFC990C8BF1DBEB13D7E3211 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -429,21 +424,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		26EA706EB75F0231E75BBB56 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3F5122A0E6DF8CF98DF43C43 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,51 +499,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A7A22119789FAA650CEBF3CD /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AFC990C8BF1DBEB13D7E3211 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B81C2B72FF8FD78F31A7EC46 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C853B36F93821F429A2DB457 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -622,21 +557,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FC233144111699394FF652E2 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -805,7 +725,7 @@
 		};
 		05928F691D6592DF008948DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94EDFE8B349DC941926EACA3 /* Pods-Samson Social.debug.xcconfig */;
+			baseConfigurationReference = 5407539C233DC16DBB3921A8 /* Pods-Samson Social.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -821,7 +741,7 @@
 		};
 		05928F6A1D6592DF008948DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A85508887E9F2EF392DBA87 /* Pods-Samson Social.release.xcconfig */;
+			baseConfigurationReference = 74907BB5559BF85BB61C3BBA /* Pods-Samson Social.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -837,7 +757,7 @@
 		};
 		05928F6C1D6592DF008948DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89345FA7E2A7C3D256AE836E /* Pods-Samson SocialTests.debug.xcconfig */;
+			baseConfigurationReference = ED2474070EE2364E0C12C449 /* Pods-Samson SocialTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 65NL44LT3V;
@@ -852,7 +772,7 @@
 		};
 		05928F6D1D6592DF008948DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74A8F4A5963BDAB8B04BE626 /* Pods-Samson SocialTests.release.xcconfig */;
+			baseConfigurationReference = E8F4A652B4C0488D70AB24AD /* Pods-Samson SocialTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 65NL44LT3V;
@@ -867,7 +787,7 @@
 		};
 		05928F6F1D6592DF008948DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BA6777C67CBF3FC2728E5C4 /* Pods-Samson SocialUITests.debug.xcconfig */;
+			baseConfigurationReference = 238C1A398D9045D9099C433B /* Pods-Samson SocialUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 65NL44LT3V;
 				INFOPLIST_FILE = "Samson SocialUITests/Info.plist";
@@ -881,7 +801,7 @@
 		};
 		05928F701D6592DF008948DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C728BEB7EEDE7279444CEA8 /* Pods-Samson SocialUITests.release.xcconfig */;
+			baseConfigurationReference = EA56472E6236D2A5A623DD75 /* Pods-Samson SocialUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 65NL44LT3V;
 				INFOPLIST_FILE = "Samson SocialUITests/Info.plist";
