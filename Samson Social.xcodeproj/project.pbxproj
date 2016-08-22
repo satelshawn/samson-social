@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051E12B01D6889FB00685FE9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051E12AF1D6889FB00685FE9 /* Post.swift */; };
+		0558DE351D6854D30098D271 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558DE341D6854D30098D271 /* DataService.swift */; };
 		05928F441D6592DE008948DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F431D6592DE008948DD /* AppDelegate.swift */; };
-		05928F461D6592DE008948DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F451D6592DE008948DD /* ViewController.swift */; };
+		05928F461D6592DE008948DD /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F451D6592DE008948DD /* SignInVC.swift */; };
 		05928F491D6592DE008948DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05928F471D6592DE008948DD /* Main.storyboard */; };
 		05928F4B1D6592DE008948DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05928F4A1D6592DE008948DD /* Assets.xcassets */; };
 		05928F4E1D6592DE008948DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05928F4C1D6592DE008948DD /* LaunchScreen.storyboard */; };
 		05928F591D6592DF008948DD /* Samson_SocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F581D6592DF008948DD /* Samson_SocialTests.swift */; };
 		05928F641D6592DF008948DD /* Samson_SocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F631D6592DF008948DD /* Samson_SocialUITests.swift */; };
+		05928F721D65934E008948DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05928F711D65934E008948DD /* GoogleService-Info.plist */; };
+		05928F771D66C4B8008948DD /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F761D66C4B8008948DD /* FancyView.swift */; };
+		05928F7A1D66C542008948DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F791D66C542008948DD /* Constants.swift */; };
+		05928F7C1D66C6E7008948DD /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F7B1D66C6E7008948DD /* RoundButton.swift */; };
+		05928F7E1D66C8E3008948DD /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F7D1D66C8E3008948DD /* FancyField.swift */; };
+		05928F801D66CA11008948DD /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F7F1D66CA11008948DD /* FancyButton.swift */; };
+		05928F831D66EC88008948DD /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05928F821D66EC88008948DD /* FeedVC.swift */; };
+		05FBFF3D1D66FC6D00D122AF /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBFF3C1D66FC6D00D122AF /* CircleView.swift */; };
+		05FBFF3F1D6706BE00D122AF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBFF3E1D6706BE00D122AF /* PostCell.swift */; };
+		4709E814C875376DC032F2CE /* Pods_Samson_SocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F7C7C9BA9E7EEA2FDD0548 /* Pods_Samson_SocialUITests.framework */; };
+		7D5AB9BA26D79F379F098805 /* Pods_Samson_SocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D33306124AB88E6F862519D /* Pods_Samson_SocialTests.framework */; };
+		F046EA507BCA040907016E8D /* Pods_Samson_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED66B764997195B634033DB /* Pods_Samson_Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051E12AF1D6889FB00685FE9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0558DE341D6854D30098D271 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		05928F401D6592DE008948DD /* Samson Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Samson Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05928F431D6592DE008948DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05928F451D6592DE008948DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05928F451D6592DE008948DD /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		05928F481D6592DE008948DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05928F4A1D6592DE008948DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05928F4D1D6592DE008948DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,25 @@
 		05928F5F1D6592DF008948DD /* Samson SocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Samson SocialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05928F631D6592DF008948DD /* Samson_SocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samson_SocialUITests.swift; sourceTree = "<group>"; };
 		05928F651D6592DF008948DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05928F711D65934E008948DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		05928F761D66C4B8008948DD /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		05928F791D66C542008948DD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		05928F7B1D66C6E7008948DD /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		05928F7D1D66C8E3008948DD /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		05928F7F1D66CA11008948DD /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		05928F811D66DCFA008948DD /* Samson Social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Samson Social.entitlements"; sourceTree = "<group>"; };
+		05928F821D66EC88008948DD /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		05FBFF3C1D66FC6D00D122AF /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		05FBFF3E1D6706BE00D122AF /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		238C1A398D9045D9099C433B /* Pods-Samson SocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D33306124AB88E6F862519D /* Pods_Samson_SocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samson_SocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5407539C233DC16DBB3921A8 /* Pods-Samson Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social.debug.xcconfig"; sourceTree = "<group>"; };
+		6ED66B764997195B634033DB /* Pods_Samson_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samson_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74907BB5559BF85BB61C3BBA /* Pods-Samson Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social.release.xcconfig"; sourceTree = "<group>"; };
+		B4F7C7C9BA9E7EEA2FDD0548 /* Pods_Samson_SocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samson_SocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F4A652B4C0488D70AB24AD /* Pods-Samson SocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA56472E6236D2A5A623DD75 /* Pods-Samson SocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED2474070EE2364E0C12C449 /* Pods-Samson SocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samson SocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F046EA507BCA040907016E8D /* Pods_Samson_Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D5AB9BA26D79F379F098805 /* Pods_Samson_SocialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +105,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4709E814C875376DC032F2CE /* Pods_Samson_SocialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0558DE331D6854B80098D271 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0558DE341D6854D30098D271 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		05928F371D6592DE008948DD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				05928F571D6592DF008948DD /* Samson SocialTests */,
 				05928F621D6592DF008948DD /* Samson SocialUITests */,
 				05928F411D6592DE008948DD /* Products */,
+				58A08CA7E32093148A1352C7 /* Pods */,
+				1E307EE2ECA7509AE03A877D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +145,18 @@
 		05928F421D6592DE008948DD /* Samson Social */ = {
 			isa = PBXGroup;
 			children = (
+				05928F811D66DCFA008948DD /* Samson Social.entitlements */,
+				0558DE331D6854B80098D271 /* Services */,
+				05928F781D66C534008948DD /* Util */,
+				05928F731D6595A4008948DD /* Model */,
+				05928F751D6595B0008948DD /* Controller */,
+				05928F741D6595AA008948DD /* View */,
 				05928F431D6592DE008948DD /* AppDelegate.swift */,
-				05928F451D6592DE008948DD /* ViewController.swift */,
 				05928F471D6592DE008948DD /* Main.storyboard */,
 				05928F4A1D6592DE008948DD /* Assets.xcassets */,
 				05928F4C1D6592DE008948DD /* LaunchScreen.storyboard */,
 				05928F4F1D6592DE008948DD /* Info.plist */,
+				05928F711D65934E008948DD /* GoogleService-Info.plist */,
 			);
 			path = "Samson Social";
 			sourceTree = "<group>";
@@ -125,6 +179,67 @@
 			path = "Samson SocialUITests";
 			sourceTree = "<group>";
 		};
+		05928F731D6595A4008948DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				051E12AF1D6889FB00685FE9 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05928F741D6595AA008948DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05928F761D66C4B8008948DD /* FancyView.swift */,
+				05928F7B1D66C6E7008948DD /* RoundButton.swift */,
+				05928F7D1D66C8E3008948DD /* FancyField.swift */,
+				05928F7F1D66CA11008948DD /* FancyButton.swift */,
+				05FBFF3C1D66FC6D00D122AF /* CircleView.swift */,
+				05FBFF3E1D6706BE00D122AF /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		05928F751D6595B0008948DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05928F451D6592DE008948DD /* SignInVC.swift */,
+				05928F821D66EC88008948DD /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		05928F781D66C534008948DD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				05928F791D66C542008948DD /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		1E307EE2ECA7509AE03A877D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ED66B764997195B634033DB /* Pods_Samson_Social.framework */,
+				2D33306124AB88E6F862519D /* Pods_Samson_SocialTests.framework */,
+				B4F7C7C9BA9E7EEA2FDD0548 /* Pods_Samson_SocialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58A08CA7E32093148A1352C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5407539C233DC16DBB3921A8 /* Pods-Samson Social.debug.xcconfig */,
+				74907BB5559BF85BB61C3BBA /* Pods-Samson Social.release.xcconfig */,
+				ED2474070EE2364E0C12C449 /* Pods-Samson SocialTests.debug.xcconfig */,
+				E8F4A652B4C0488D70AB24AD /* Pods-Samson SocialTests.release.xcconfig */,
+				238C1A398D9045D9099C433B /* Pods-Samson SocialUITests.debug.xcconfig */,
+				EA56472E6236D2A5A623DD75 /* Pods-Samson SocialUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +247,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05928F681D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson Social" */;
 			buildPhases = (
+				3F5122A0E6DF8CF98DF43C43 /* [CP] Check Pods Manifest.lock */,
+				07F0B29D8F50FB1F76275822 /* [CP] Check Pods Manifest.lock */,
 				05928F3C1D6592DE008948DD /* Sources */,
 				05928F3D1D6592DE008948DD /* Frameworks */,
 				05928F3E1D6592DE008948DD /* Resources */,
+				9F2BF08F31374E36BCE3D054 /* [CP] Embed Pods Frameworks */,
+				C853B36F93821F429A2DB457 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +268,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05928F6B1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialTests" */;
 			buildPhases = (
+				F172A32272DE0482E13DBA99 /* [CP] Check Pods Manifest.lock */,
+				250E3EE50F3DEA58DDD3792F /* [CP] Check Pods Manifest.lock */,
 				05928F501D6592DF008948DD /* Sources */,
 				05928F511D6592DF008948DD /* Frameworks */,
 				05928F521D6592DF008948DD /* Resources */,
+				D6F857DC53BF53556ED94602 /* [CP] Embed Pods Frameworks */,
+				D80D8248224ECE6226F73175 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05928F6E1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialUITests" */;
 			buildPhases = (
+				40CC1EAED42F1B257BCE5728 /* [CP] Check Pods Manifest.lock */,
+				5B9109C2BEAA2F44227291F2 /* [CP] Check Pods Manifest.lock */,
 				05928F5B1D6592DF008948DD /* Sources */,
 				05928F5C1D6592DF008948DD /* Frameworks */,
 				05928F5D1D6592DF008948DD /* Resources */,
+				584525347A071C41F69D439A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,17 +320,26 @@
 					05928F3F1D6592DE008948DD = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 65NL44LT3V;
+						DevelopmentTeamName = "Shawn Truesdell";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					05928F531D6592DF008948DD = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 65NL44LT3V;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 05928F3F1D6592DE008948DD;
 					};
 					05928F5E1D6592DF008948DD = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 65NL44LT3V;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 05928F3F1D6592DE008948DD;
 					};
@@ -236,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05928F4E1D6592DE008948DD /* LaunchScreen.storyboard in Resources */,
+				05928F721D65934E008948DD /* GoogleService-Info.plist in Resources */,
 				05928F4B1D6592DE008948DD /* Assets.xcassets in Resources */,
 				05928F491D6592DE008948DD /* Main.storyboard in Resources */,
 			);
@@ -257,13 +393,191 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07F0B29D8F50FB1F76275822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		250E3EE50F3DEA58DDD3792F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F5122A0E6DF8CF98DF43C43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40CC1EAED42F1B257BCE5728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		584525347A071C41F69D439A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialUITests/Pods-Samson SocialUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B9109C2BEAA2F44227291F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F2BF08F31374E36BCE3D054 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C853B36F93821F429A2DB457 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F857DC53BF53556ED94602 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D80D8248224ECE6226F73175 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F172A32272DE0482E13DBA99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05928F3C1D6592DE008948DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05928F461D6592DE008948DD /* ViewController.swift in Sources */,
+				05FBFF3D1D66FC6D00D122AF /* CircleView.swift in Sources */,
+				05928F7E1D66C8E3008948DD /* FancyField.swift in Sources */,
+				05928F461D6592DE008948DD /* SignInVC.swift in Sources */,
+				051E12B01D6889FB00685FE9 /* Post.swift in Sources */,
+				05928F7C1D66C6E7008948DD /* RoundButton.swift in Sources */,
+				05928F801D66CA11008948DD /* FancyButton.swift in Sources */,
+				0558DE351D6854D30098D271 /* DataService.swift in Sources */,
+				05928F831D66EC88008948DD /* FeedVC.swift in Sources */,
 				05928F441D6592DE008948DD /* AppDelegate.swift in Sources */,
+				05928F771D66C4B8008948DD /* FancyView.swift in Sources */,
+				05928F7A1D66C542008948DD /* Constants.swift in Sources */,
+				05FBFF3F1D6706BE00D122AF /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,12 +725,15 @@
 		};
 		05928F691D6592DF008948DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5407539C233DC16DBB3921A8 /* Pods-Samson Social.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Samson Social/Samson Social.entitlements";
 				DEVELOPMENT_TEAM = 65NL44LT3V;
 				INFOPLIST_FILE = "Samson Social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.samsonsocial.Samson-Social";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.Samson-Social";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,12 +741,15 @@
 		};
 		05928F6A1D6592DF008948DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74907BB5559BF85BB61C3BBA /* Pods-Samson Social.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Samson Social/Samson Social.entitlements";
 				DEVELOPMENT_TEAM = 65NL44LT3V;
 				INFOPLIST_FILE = "Samson Social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.samsonsocial.Samson-Social";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.satelshawn.Samson-Social";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -437,6 +757,7 @@
 		};
 		05928F6C1D6592DF008948DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2474070EE2364E0C12C449 /* Pods-Samson SocialTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 65NL44LT3V;
@@ -451,6 +772,7 @@
 		};
 		05928F6D1D6592DF008948DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F4A652B4C0488D70AB24AD /* Pods-Samson SocialTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 65NL44LT3V;
@@ -465,6 +787,7 @@
 		};
 		05928F6F1D6592DF008948DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238C1A398D9045D9099C433B /* Pods-Samson SocialUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 65NL44LT3V;
 				INFOPLIST_FILE = "Samson SocialUITests/Info.plist";
@@ -478,6 +801,7 @@
 		};
 		05928F701D6592DF008948DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA56472E6236D2A5A623DD75 /* Pods-Samson SocialUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 65NL44LT3V;
 				INFOPLIST_FILE = "Samson SocialUITests/Info.plist";
@@ -508,6 +832,7 @@
 				05928F6A1D6592DF008948DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05928F6B1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +841,7 @@
 				05928F6D1D6592DF008948DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05928F6E1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +850,7 @@
 				05928F701D6592DF008948DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

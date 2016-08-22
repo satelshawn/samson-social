@@ -6,8 +6,12 @@
 //  Copyright © 2016 Satel Develops. All rights reserved.
 //
 
+
 import XCTest
-@testable import Samson_Social
+
+
+//@testable import Samson_Social
+//@testable import Firebase
 
 class Samson_SocialTests: XCTestCase {
     
