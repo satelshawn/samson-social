@@ -247,7 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05928F681D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson Social" */;
 			buildPhases = (
-				3F5122A0E6DF8CF98DF43C43 /* Check Pods Manifest.lock */,
+				3F5122A0E6DF8CF98DF43C43 /* [CP] Check Pods Manifest.lock */,
 				07F0B29D8F50FB1F76275822 /* [CP] Check Pods Manifest.lock */,
 				05928F3C1D6592DE008948DD /* Sources */,
 				05928F3D1D6592DE008948DD /* Frameworks */,
@@ -270,7 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05928F6B1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialTests" */;
 			buildPhases = (
-				F172A32272DE0482E13DBA99 /* Check Pods Manifest.lock */,
+				F172A32272DE0482E13DBA99 /* [CP] Check Pods Manifest.lock */,
 				250E3EE50F3DEA58DDD3792F /* [CP] Check Pods Manifest.lock */,
 				05928F501D6592DF008948DD /* Sources */,
 				05928F511D6592DF008948DD /* Frameworks */,
@@ -294,7 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05928F6E1D6592DF008948DD /* Build configuration list for PBXNativeTarget "Samson SocialUITests" */;
 			buildPhases = (
-				40CC1EAED42F1B257BCE5728 /* Check Pods Manifest.lock */,
+				40CC1EAED42F1B257BCE5728 /* [CP] Check Pods Manifest.lock */,
 				5B9109C2BEAA2F44227291F2 /* [CP] Check Pods Manifest.lock */,
 				05928F5B1D6592DF008948DD /* Sources */,
 				05928F5C1D6592DF008948DD /* Frameworks */,
@@ -444,14 +444,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson Social/Pods-Samson Social-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3F5122A0E6DF8CF98DF43C43 /* Check Pods Manifest.lock */ = {
+		3F5122A0E6DF8CF98DF43C43 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,14 +459,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		40CC1EAED42F1B257BCE5728 /* Check Pods Manifest.lock */ = {
+		40CC1EAED42F1B257BCE5728 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,14 +609,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Samson SocialTests/Pods-Samson SocialTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F172A32272DE0482E13DBA99 /* Check Pods Manifest.lock */ = {
+		F172A32272DE0482E13DBA99 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
